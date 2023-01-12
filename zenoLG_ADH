@@ -1,0 +1,17 @@
+! LG
+||ad.lgappstv.com^
+||ibis.lgappstv.com^
+||lgad.cjpowercast.com.edgesuite.net^
+! ngfts.lge.com # Blocks thumbnails from loading in the LG Content Store
+||lgsmartad.com^
+||ibs.lgappstv.com^
+||yumenetworks.com^
+! ||lgtvsdp.com^ # Prevents LG TV Content Store from working on LG OLED55C7V in the UK; https://github.com/Perflyst/PiHoleBlocklist/issues/53
+|lgtvsdp.com^
+||smartshare.lgtvsdp.com^
+||rdx2.lgtvsdp.com^
+! For TVs that try to connect to several garbled letter combinations
+/^[a-z]{11,15}$/
+/^[a-z]{7,10}$/$ctag=device_tv
+! Used in malware exploits
+||aic-ngfts.lge.com^
