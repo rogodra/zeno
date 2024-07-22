@@ -15,3 +15,9 @@
 /^[a-z]{7,10}$/$ctag=device_tv
 ! Used in malware exploits
 ||aic-ngfts.lge.com^
+||snu.lge.com^
+||su.lge.com^
+||su-ssl.lge.com^
+||snu-dev.lge.com^
+||su-dev.lge.com^
+||nsu.lge.com^
